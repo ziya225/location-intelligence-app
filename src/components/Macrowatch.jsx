@@ -1,55 +1,37 @@
 import React, { useState } from 'react';
 import { FaCircle } from 'react-icons/fa';
-import { ChartData } from '../ChartData';
+import { ChartData } from '../components/ChartData';
 import { FormControlLabel, FormGroup, Switch } from '@mui/material';
 
 const Macrowatch = () => {
   const [landCover, setLandCover] = useState(false);
 
   return (
-    <div className="absolute flex flex-col ml-3 top-12 left-40">
-      <div className="flex flex-col pt-3 pl-5 mt-3 text-white bg-black rounded-md w-52 bg-opacity-70">
-        <div className="flex flex-col">
-          <div className="">
-            <FormGroup>
-              <FormControlLabel
-                control={
-                  <Switch
-                    size="small"
-                    onChange={() => setLandCover(!landCover)}
-                  />
-                }
-                label="Land Cover"
-              />
-            </FormGroup>
+    <div className="absolute flex flex-col ml-3 font-opensans top-12 left-40">
+      <div className="flex flex-col w-56 py-3 pl-5 mt-3 text-white bg-black border border-blue-500 rounded-md shadow-lg bg-opacity-70">
+        <div className="flex flex-col -ml-3">
+          <div className="flex flex-row">
+            <Switch size="small" onChange={() => setLandCover(!landCover)} />
+            <div className="text-[13px] pl-1">Land Cover</div>
           </div>
-          <div className="text-[10px] pl-[30px]">Yearly 10m</div>
+          <div className="text-[9px] -mt-1 pl-[45px]">Yearly 10m</div>
         </div>
-        <div className="flex flex-col pt-2">
-          <div className="">
-            <FormGroup>
-              <FormControlLabel
-                control={<Switch size="small" />}
-                label="Forest Cover Change"
-                className="truncate"
-              />
-            </FormGroup>
+        <div className="flex flex-col pt-3 -ml-3">
+          <div className="flex flex-row">
+            <Switch size="small" />
+            <div className="text-[13px] pl-1">Forest Cover Change</div>
           </div>
-          <div className="text-[10px] pl-[30px]">Quaterly 10m</div>
+          <div className="text-[9px] -mt-1 pl-[45px]">Yearly 10m</div>
         </div>
-        <div className="flex flex-col py-2">
-          <div className="">
-            <FormGroup>
-              <FormControlLabel
-                control={<Switch size="small" />}
-                label="Forest Cover Type"
-              />
-            </FormGroup>
+        <div className="flex flex-col pt-3 -ml-3">
+          <div className="flex flex-row">
+            <Switch size="small" />
+            <div className="text-[13px] pl-1">Forest Cover Type</div>
           </div>
-          <div className="text-[10px] pl-[30px]">Yearly 10m</div>
+          <div className="text-[9px] -mt-1 pl-[45px]">Yearly 10m</div>
         </div>
       </div>
-      <div className="flex flex-col w-56 h-48 pt-3 mt-3 bg-black rounded-md bg-opacity-70">
+      <div className="flex flex-col w-56 h-48 pt-3 mt-3 bg-black border border-blue-500 rounded-md shadow-lg bg-opacity-70">
         <ChartData />
       </div>
       {landCover ? (

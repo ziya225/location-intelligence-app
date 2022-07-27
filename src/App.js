@@ -1,6 +1,5 @@
-import React from 'react';
-import FrontUI from './FrontUI';
-import GoogleMap from './GoogleMap';
+import FrontUI from './components/FrontUI';
+import GoogleMap from './components/GoogleMap';
 
 const App = () => {
   return (

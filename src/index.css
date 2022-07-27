@@ -1,7 +1,4 @@
 @tailwind base;
-.nav-tab .nav-link {
-  color: #ffffff !important;
-}
 @tailwind components;
 @tailwind utilities;
 body {
