@@ -6,7 +6,9 @@ import {
   CategoryScale,
   BarElement,
   PointElement,
-  LineElement,LineController,
+  LineElement,
+  LineController,
+  BarController,
   Legend,
   Tooltip,
 } from 'chart.js';
@@ -24,7 +26,9 @@ ChartJS.register(
   CategoryScale,
   BarElement,
   PointElement,
-  LineElement,LineController,
+  LineElement,
+  LineController,
+  BarController,
   Legend,
   Tooltip
 );
