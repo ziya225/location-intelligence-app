@@ -10,7 +10,7 @@ const Weather = () => {
     unit: 'metric', // values are (metric, standard, imperial)
   });
   return (
-    <div className="absolute flex flex-col ml-3 font-opensans top-12 left-40">
+    <div className="absolute w-96 flex flex-col ml-3 font-opensans top-12 left-40">
       <div className="flex flex-col py-3 pl-3 mt-3 text-white bg-black border border-blue-500 rounded-md shadow-lg bg-opacity-70">
         <ReactWeather
           isLoading={isLoading}
