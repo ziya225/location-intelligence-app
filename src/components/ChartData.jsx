@@ -6,7 +6,7 @@ import {
   CategoryScale,
   BarElement,
   PointElement,
-  LineElement,
+  LineElement,LineController,
   Legend,
   Tooltip,
 } from 'chart.js';
@@ -16,6 +16,7 @@ import {
   getElementAtEvent,
   getElementsAtEvent,
 } from 'react-chartjs-2';
+
 import faker from 'faker';
 
 ChartJS.register(
@@ -23,7 +24,7 @@ ChartJS.register(
   CategoryScale,
   BarElement,
   PointElement,
-  LineElement,
+  LineElement,LineController,
   Legend,
   Tooltip
 );

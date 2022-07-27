@@ -119,33 +119,33 @@ const FrontUI = () => {
       <div className="absolute flex flex-col top-[20px] right-[80px] z-50">
         <div>
           <img
-            className="border border-blue-500 rounded-full w-9 h-9"
+            className="border border-blue-500 rounded-full cursor-pointer w-9 h-9"
             src={require('../img/user.jpg')}
             alt="user"
           />
         </div>
-        <div className="mt-3 py-1 px-1.5 bg-black rounded-md bg-opacity-40">
+        <div className="mt-3 py-1 cursor-pointer px-1.5 bg-black rounded-md bg-opacity-40">
           <AiOutlineInfoCircle className="w-6 h-6 text-white " />
         </div>
-        <div className="mt-3 py-1 px-1.5 bg-black rounded-md bg-opacity-40">
+        <div className="mt-3 py-1 cursor-pointer px-1.5 bg-black rounded-md bg-opacity-40">
           <RiMapPin2Line className="w-6 h-6 text-white " />
         </div>
-        <div className="mt-3 py-1 px-1.5 bg-black rounded-md bg-opacity-40">
+        <div className="mt-3 py-1 cursor-pointer px-1.5 bg-black rounded-md bg-opacity-40">
           <AiOutlineCloudUpload className="w-6 h-6 text-white " />
         </div>
-        <div className="mt-3 py-1 px-1.5 bg-black rounded-md bg-opacity-40">
+        <div className="mt-3 py-1 cursor-pointer px-1.5 bg-black rounded-md bg-opacity-40">
           <AiOutlineCloudDownload className="w-6 h-6 text-white " />
         </div>
-        <div className="mt-3 py-1 px-1.5 bg-black rounded-md bg-opacity-40">
+        <div className="mt-3 py-1 cursor-pointer px-1.5 bg-black rounded-md bg-opacity-40">
           <AiOutlineShareAlt className="w-6 h-6 text-white " />
         </div>
-        <div className="mt-3 py-1 px-1.5 bg-black rounded-md bg-opacity-40">
+        <div className="mt-3 py-1 cursor-pointer px-1.5 bg-black rounded-md bg-opacity-40">
           <AiOutlineMessage className="w-6 h-6 text-white " />
         </div>
-        <div className="mt-3 py-1 px-1.5 bg-black rounded-md bg-opacity-40">
+        <div className="mt-3 py-1 cursor-pointer px-1.5 bg-black rounded-md bg-opacity-40">
           <GiEarthAfricaEurope className="w-6 h-6 text-white " />
         </div>
-        <div className="mt-3 py-1 px-1.5 bg-black rounded-md bg-opacity-40">
+        <div className="mt-3 py-1 cursor-pointer px-1.5 bg-black rounded-md bg-opacity-40">
           <BsPeople className="w-6 h-6 text-white " />
         </div>
         <div className="pl-2.5 pt-2">
