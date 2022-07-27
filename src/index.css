@@ -21,3 +21,10 @@ code {
 .hover-trigger:hover .hover-target {
   display: block;
 }
+.weather > div > div {
+  background: rgb(0 0 0 / 0%);
+  color: #fff !important;
+}
+.weather div {
+  color: #fff !important;
+}
